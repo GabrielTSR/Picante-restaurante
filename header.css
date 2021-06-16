@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-image: url(img/pizza\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100hv;
+    width: 100wv;
+}
+
+header {
+    top: 0;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+header a {
+    position: relative;
+    right: 120px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    user-select: none;
+    transition: all 1s;
+}
+
+.links ul {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    list-style-type: none;
+    left: 250px;
+}
+
+.links a {
+    position: relative;
+    top: 5px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    user-select: none;
+    transition: all 1s;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+header a a:hover {}
+
+.links li ul {
+    position: relative;
+}
+
+.links ul .headerButton {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 1px;
+    margin-top: -7px;
+}
+
+.links ul .imgHeader {
+    filter: invert();
+    height: 25px;
+    margin-top: 2px;
+}
