@@ -1,0 +1,114 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            flex-direction: row;
+            background-color: darkblue;
+        }
+        
+        main,
+        aside {
+            display: flex;
+            flex-grow: 1;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        main {
+            background-color: whitesmoke;
+            flex-direction: column;
+            width: 1vw;
+            height: 100vh;
+        }
+        
+        aside {
+            background-color: gray;
+            background-image: url(img/cooking.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .about,
+        .GrigorBoth,
+        .firstText,
+        .secondText,
+        .setas {
+            display: flex;
+            justify-content: center;
+            width: 100vw;
+        }
+        
+        .about {
+            flex-grow: 3;
+            padding-right: 15vh;
+            font-family: 'Great Vibes', cursive;
+            font-size: 60px;
+            align-items: flex-end;
+        }
+        
+        .letraLaranja {
+            color: chocolate;
+        }
+        
+        .GrigorBoth {
+            flex-grow: 3;
+        }
+        
+        .firstText {
+            margin-top: 0px;
+            flex-grow: 1;
+            position: relative;
+            width: 30vw;
+            font-size: 15px;
+            font-family: 'Marcellus', serif;
+            font-style: italic;
+        }
+        
+        .secondText {
+            flex-grow: 2;
+            font-family: 'Karla', sans-serif;
+            font-size: 15px;
+            width: 30vw;
+        }
+        
+        .setas {
+            flex-grow: 2;
+        }
+        
+        .imgGrigor {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 10vw;
+        }
+        
+        .imgGrigor img {
+            border-radius: 100000px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .onlyTitle {
+            font-family: 'Marcellus', serif;
+            font-size: 25px;
+            position: absolute;
+            padding-top: 3vh;
+            left: 19vw;
+            top: 29vh;
+        }
+        
+        .onlySubtitle {
+            font-family: 'Karla', sans-serif;
+            color: chocolate;
+            font-size: 15px;
+            position: absolute;
+            left: 19vw;
+            top: 37vh;
+        }

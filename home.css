@@ -51,7 +51,7 @@ main div {
 .losango20,
 .losango01 {
     border: 3px solid white;
-    -webkit-transform: rotate(-5.5rad);
+    transform: rotate(-5.5rad);
 }
 
 .numeroLosango20,
