@@ -5,29 +5,33 @@
 }
 
 body {
+    display: flex;
     font-family: 'Karla', sans-serif;
     background-image: url(img/pizza\ background.jpg);
     background-size: cover;
+    background-position: right top;
     background-repeat: no-repeat;
+    background-color: black;
     height: 100vh;
     width: 90vw;
 }
 
 header {
     top: 0;
-    height: 40px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw;
 }
 
 header a {
     position: absolute;
     left: 0px;
+    top: 25px;
     color: white;
     text-decoration: none;
     font-size: 25px;
+    font-weight: bold;
     user-select: none;
     transition: all 1s;
 }
@@ -35,9 +39,10 @@ header a {
 .links ul {
     display: flex;
     position: absolute;
+    right: 15px;
+    top: 25px;
     gap: 20px;
     list-style-type: none;
-    right: 15px;
 }
 
 .links a {
@@ -45,18 +50,17 @@ header a {
     top: 5px;
     display: flex;
     color: white;
+    font-weight: bold;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
     user-select: none;
     transition: all 1s;
+    margin: 7px;
 }
 
-.links a:hover {
+.links a:hover,
+header a:hover {
     text-decoration: underline;
-}
-
-.links li ul {
-    position: relative;
 }
 
 .links ul .headerButton {
@@ -65,8 +69,8 @@ header a {
     justify-content: center;
     align-items: center;
     color: white;
-    width: 150px;
-    height: 40px;
+    width: 170px;
+    height: 60px;
     border-radius: 1px;
-    margin-top: -7px;
+    margin-top: -13px;
 }

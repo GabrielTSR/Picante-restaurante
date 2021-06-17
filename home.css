@@ -4,6 +4,35 @@ main div {
     align-items: center;
 }
 
-main .fita {
+.genuine {
+    position: absolute;
+    justify-content: center;
+    color: black;
+    top: 3.7vh;
+    left: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+}
+
+.fita {
+    display: flex;
+    position: absolute;
     filter: invert();
+    top: 5vh;
+    left: 40%;
+    height: 300px;
+    width: 300px;
+    z-index: 0;
+}
+
+.tasty {
+    display: flex;
+    position: absolute;
+    color: white;
+    left: 29vw;
+    top: 15vh;
+    z-index: 2;
 }
