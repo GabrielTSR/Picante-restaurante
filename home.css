@@ -1,3 +1,15 @@
+body {
+    display: flex;
+    font-family: 'Karla', sans-serif;
+    background-image: url(img/home-background.jpg);
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 100vh;
+    width: 90vw;
+}
+
 main div {
     display: flex;
     flex-direction: column;
@@ -14,7 +26,7 @@ main div {
     font-weight: bold;
     height: 300px;
     width: 300px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .fita {
@@ -25,7 +37,7 @@ main div {
     left: 40%;
     height: 300px;
     width: 300px;
-    z-index: 0;
+    z-index: -2;
 }
 
 .tasty {
@@ -33,6 +45,74 @@ main div {
     position: absolute;
     color: white;
     left: 29vw;
-    top: 15vh;
-    z-index: 2;
+    top: 19vh;
+}
+
+.losango20,
+.losango01 {
+    border: 3px solid white;
+    -webkit-transform: rotate(-5.5rad);
+}
+
+.numeroLosango20,
+.numeroLosango01 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.losango20,
+.losango01,
+.numeroLosango20,
+.numeroLosango01 {
+    position: absolute;
+    top: 60vh;
+    height: 25px;
+    width: 25px;
+    font-size: 11px;
+    z-index: 1;
+}
+
+.numeroLosango01,
+.numeroLosango20 {
+    top: 60.6vh;
+}
+
+.losango20,
+.numeroLosango20 {
+    left: 37.5vw;
+}
+
+.losango01,
+.numeroLosango01 {
+    left: 59vw;
+}
+
+.cooking {
+    position: absolute;
+    top: 56.4vh;
+    left: 40vw;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    font-size: 50px;
+}
+
+.view {
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    left: 43vw;
+    top: 72vh;
+    height: 50px;
+    width: 175px;
+    background-color: sandybrown;
+    transition: all 1s;
+}
+
+.view:hover {
+    background-color: darkblue;
 }
