@@ -110,9 +110,9 @@ main div {
     height: 50px;
     width: 175px;
     background-color: sandybrown;
-    transition: all 1s;
 }
 
 .view:hover {
     background-color: darkblue;
+    transition: all 1s;
 }
