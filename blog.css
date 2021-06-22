@@ -83,6 +83,7 @@ body {
 
 .metadeBaixoOurGallery {
     height: 60vh;
+    width: 100vw;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: minmax(100px, 1fr);
