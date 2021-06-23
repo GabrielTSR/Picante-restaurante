@@ -21,7 +21,7 @@ main div {
     justify-content: center;
     color: black;
     top: 3.7vh;
-    left: 40%;
+    left: 41%;
     font-size: 20px;
     font-weight: bold;
     height: 300px;
@@ -34,7 +34,7 @@ main div {
     position: absolute;
     filter: invert();
     top: 5vh;
-    left: 40%;
+    left: 41%;
     height: 300px;
     width: 300px;
     z-index: -2;
@@ -42,10 +42,14 @@ main div {
 
 .tasty {
     display: flex;
-    position: absolute;
     color: white;
-    left: 29vw;
-    top: 19vh;
+}
+
+.tastyPassion {
+    display: flex;
+    position: absolute;
+    left: 28vw;
+    top: 20vh;
 }
 
 .losango20,
@@ -64,33 +68,51 @@ main div {
 .losango01,
 .numeroLosango20,
 .numeroLosango01 {
-    position: absolute;
-    top: 60vh;
     height: 25px;
     width: 25px;
     font-size: 11px;
+    position: relative;
+    bottom: 10px;
     z-index: 1;
 }
 
 .numeroLosango01,
 .numeroLosango20 {
-    top: 60.6vh;
+    position: relative;
+    bottom: 30px;
 }
 
 .losango20,
 .numeroLosango20 {
-    left: 37.5vw;
+    position: relative;
+    right: 45px;
 }
 
 .losango01,
 .numeroLosango01 {
-    left: 59vw;
+    left: 35px;
+}
+
+.blocoLosango01,
+.blocoLosango20 {
+    display: inline-block;
+    height: 1px;
+    width: 1px;
+    background-color: saddlebrown;
+}
+
+.cookingSinceBlock {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10vh;
+    width: 33vw;
+    left: 35vw;
+    top: 57vh;
 }
 
 .cooking {
-    position: absolute;
-    top: 56.4vh;
-    left: 40vw;
     font-family: 'Great Vibes', cursive;
     color: white;
     font-size: 50px;
@@ -105,7 +127,7 @@ main div {
     justify-content: center;
     color: white;
     position: absolute;
-    left: 43vw;
+    left: 45vw;
     top: 72vh;
     height: 50px;
     width: 175px;

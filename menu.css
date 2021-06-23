@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0;
+}
+
+body {
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.titleOurBreakfast {
+    display: flex;
+    background-color: rgba(34, 32, 35);
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.letraLaranja {
+    color: chocolate;
+}
+
+.viewBreakfast {
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+    color: white;
+    height: 50px;
+    width: 175px;
+    background-color: sandybrown;
+}
+
+.viewBreakfast:hover {
+    background-color: darkblue;
+    transition: all 1s;
+}
