@@ -6,9 +6,10 @@
 
 body {
     display: flex;
-    background-color: gray;
+    height: 100vh;
     flex-direction: column;
     overflow-x: hidden;
+    background-color: rgba(34, 32, 35);
 }
 
 .titleOurBreakfast {
@@ -26,20 +27,60 @@ body {
     color: chocolate;
 }
 
+.cardapioBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    height: 60%;
+    color: white;
+    text-align: justify;
+}
+
+.cardapioBlock h3 {
+    font-size: 27px;
+    font-weight: lighter;
+}
+
+.cardapioBlock p {
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.cardapioEsquerda,
+.cardapioDireita {
+    display: flex;
+    flex-direction: column;
+    width: 34vw;
+}
+
+.numeroMenu {
+    font-style: normal;
+}
+
+.containerButton {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
 .viewBreakfast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Karla', sans-serif;
     text-decoration: none;
     font-weight: bold;
-    text-align: center;
-    padding: 15px;
-    justify-content: center;
     color: white;
     height: 50px;
-    width: 175px;
+    width: 160px;
     background-color: sandybrown;
 }
 
 .viewBreakfast:hover {
-    background-color: darkblue;
+    background-color: chocolate;
     transition: all 1s;
 }
