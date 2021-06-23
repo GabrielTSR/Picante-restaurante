@@ -16,11 +16,12 @@ body {
     display: flex;
     background-color: rgba(34, 32, 35);
     height: 100px;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     font-family: 'Great Vibes', cursive;
     font-size: 50px;
     color: white;
+    margin-bottom: 20px;
 }
 
 .letraLaranja {

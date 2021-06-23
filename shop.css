@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.ContactUs {
+    display: flex;
+    background-color: rgba(34, 32, 35);
+    flex-direction: column;
+}
+
+.googleMapsFundo {
+    height: 50vh;
+    background-color: gray;
+}
+
+.googleMapsFundo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fundoPreto {
+    height: 50vh;
+}
+
+.dadosAbsolute {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 30vh;
+    height: 65vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.dadosAbsolute>* {
+    display: flex;
+    position: relative;
+    top: 30px;
+}
+
+.redesSociaisBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.redesSociaisBlock>a:first-of-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    text-decoration: none;
+    color: rgb(123, 122, 127);
+    font-family: 'Karla', sans-serif;
+    font-weight: bolder;
+}
+
+.PicanteAndLogo p {
+    letter-spacing: 3px;
+}
+
+.PicanteAndLogo img {
+    height: 100px;
+    width: 100px;
+}
+
+.letraLaranja {
+    color: chocolate;
+}
