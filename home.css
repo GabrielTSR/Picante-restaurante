@@ -33,7 +33,7 @@ main {
     font-weight: bold;
     height: 300px;
     width: 300px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .genuine {

@@ -4,7 +4,7 @@
     box-sizing: 0;
 }
 
-.ContactUs {
+footer {
     display: flex;
     background-color: rgba(34, 32, 35);
     flex-direction: column;
@@ -41,7 +41,7 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    top: 400vh;
+    top: 500vh;
     height: 65vh;
     justify-content: center;
     align-items: center;
