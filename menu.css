@@ -4,7 +4,7 @@
     box-sizing: 0;
 }
 
-body {
+.bodyMenu {
     display: flex;
     height: 100vh;
     flex-direction: column;

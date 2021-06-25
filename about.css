@@ -4,15 +4,14 @@
             box-sizing: border-box;
         }
         
-        body {
+        .aboutBody {
             display: flex;
             width: 100vw;
             height: 100vh;
             flex-direction: row;
-            background-color: darkblue;
         }
         
-        main,
+        .aboutBlock,
         aside {
             display: flex;
             flex-grow: 1;
@@ -20,7 +19,7 @@
             justify-content: center;
         }
         
-        main {
+        .aboutBlock {
             background-color: whitesmoke;
             flex-direction: column;
             width: 1vw;
@@ -132,7 +131,7 @@
             position: absolute;
             padding-top: 3vh;
             left: 19vw;
-            top: 21vh;
+            top: 121vh;
         }
         
         .onlySubtitle {
@@ -141,5 +140,5 @@
             font-size: 15px;
             position: absolute;
             left: 19vw;
-            top: 32vh;
+            top: 132vh;
         }

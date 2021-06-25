@@ -12,6 +12,7 @@
 
 .googleMapsFundo {
     height: 50vh;
+    width: 100%;
     background-color: gray;
 }
 
@@ -23,11 +24,13 @@
 
 .fundoPreto {
     height: 50vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
     color: rgb(123, 122, 127);
+    font-family: 'Karla', sans-serif;
 }
 
 .fundoPreto>:last-child {
@@ -38,10 +41,11 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    top: 24vh;
+    top: 400vh;
     height: 65vh;
     justify-content: center;
     align-items: center;
+    left: 250px;
 }
 
 .redesSociaisBlock,
@@ -103,8 +107,9 @@
     display: block;
     background-color: white;
     list-style: none;
-    height: 350px;
+    height: 400px;
     padding: 30px;
+    position: relative;
 }
 
 .campoCadastro ul {
@@ -177,4 +182,27 @@
     color: rgb(235, 239, 240);
     background-color: rgb(133, 142, 147);
     transition: all 1s;
+}
+
+.enderecos {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    font-family: 'Karla', sans-serif;
+}
+
+.eachAdress {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10px;
+}
+
+.iconeAdress {
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50px;
 }

@@ -1,185 +1,184 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    display: flex;
-    background-color: red;
-    flex-direction: column;
-    overflow-x: hidden;
-}
-
-.metadeCimaOurGallery {
-    display: flex;
-    flex-direction: column;
-    height: 50vh;
-    background-color: rgba(34, 32, 35);
-    width: 100vw;
-    align-items: center;
-}
-
-.ourGallery,
-.ourServices {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.ourGallery {
-    background-color: royalblue;
-    color: white;
-    width: 100vw;
-}
-
-.ourServices {
-    background-color: green;
-}
-
-.TitleOurGallery {
-    font-family: 'Great Vibes', cursive;
-    font-size: 50px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
-
-.letraLaranja {
-    color: chocolate;
-}
-
-.OurGalleryTitleSubtitle p {
-    font-family: 'Karla', sans-serif;
-    text-align: center;
-    width: 60vw;
-    margin-bottom: 25px;
-}
-
-.buttonOurGallery {
-    display: flex;
-    background-color: rgb(38, 38, 40);
-    height: 40px;
-    align-items: center;
-}
-
-.individualElementsButton {
-    display: inline-block;
-    margin: 20px;
-    text-decoration: none;
-    color: white;
-}
-
-.individualElementsButton:hover {
-    color: chocolate;
-    transition: all 1s;
-}
-
-.separador {
-    opacity: 0.2;
-}
-
-.metadeBaixoOurGallery {
-    height: 60vh;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows: minmax(100px, 1fr);
-    grid-template-areas: 'box1 box2 box3 box4 box5' 'box6 box7 box8 box9 box10'
-}
-
-.OurGalleryimg1 {
-    grid-area: box1;
-}
-
-.OurGalleryimg2 {
-    grid-area: box2;
-}
-
-.OurGalleryimg3 {
-    grid-area: box3;
-}
-
-.OurGalleryimg4 {
-    grid-area: box4;
-}
-
-.OurGalleryimg5 {
-    grid-area: box5;
-}
-
-.OurGalleryimg6 {
-    grid-area: box6;
-}
-
-.OurGalleryimg7 {
-    grid-area: box7;
-}
-
-.OurGalleryimg8 {
-    grid-area: box8;
-}
-
-.OurGalleryimg9 {
-    grid-area: box9;
-}
-
-.OurGalleryimg10 {
-    grid-area: box10;
-}
-
-.metadeBaixoOurGallery img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-}
-
-.ourServices {
-    background-color: white;
-    height: 75vh;
-}
-
-.TitleOurServices {
-    font-family: 'Great Vibes', cursive;
-    font-size: 50px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
-
-.ourServices p {
-    font-family: 'Karla', sans-serif;
-    text-align: center;
-    width: 60vw;
-    margin-bottom: 25px;
-}
-
-.metadeBaixoOurServices {
-    width: 100vw;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 9vw;
-    padding-right: 13vw;
-}
-
-.metadeBaixoOurServices h6 {
-    font-size: 35px;
-    font-weight: 1;
-}
-
-.metadeBaixoOurServices p {
-    width: 19vw;
-    text-align: center;
-}
-
-.breakfastBlock {
-    padding-top: 5px;
-}
-
-.customBlock {
-    padding-top: 27px;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .bodyBlog {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    
+    .metadeCimaOurGallery {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        background-color: rgba(34, 32, 35);
+        width: 100%;
+        align-items: center;
+    }
+    
+    .ourGallery,
+    .ourServices {
+        display: flex;
+        height: 100vh;
+        width: 90vw;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .ourGallery {
+        background-color: royalblue;
+        color: white;
+        width: 100vw;
+    }
+    
+    .ourServices {
+        background-color: green;
+    }
+    
+    .TitleOurGallery {
+        font-family: 'Great Vibes', cursive;
+        font-size: 50px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .letraLaranja {
+        color: chocolate;
+    }
+    
+    .OurGalleryTitleSubtitle p {
+        font-family: 'Karla', sans-serif;
+        text-align: center;
+        width: 60vw;
+        margin-bottom: 25px;
+    }
+    
+    .buttonOurGallery {
+        display: flex;
+        background-color: rgb(38, 38, 40);
+        height: 40px;
+        align-items: center;
+    }
+    
+    .individualElementsButton {
+        display: inline-block;
+        margin: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .individualElementsButton:hover {
+        color: chocolate;
+        transition: all 1s;
+    }
+    
+    .separador {
+        opacity: 0.2;
+    }
+    
+    .metadeBaixoOurGallery {
+        height: 60vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-auto-rows: minmax(100px, 1fr);
+        grid-template-areas: 'box1 box2 box3 box4 box5' 'box6 box7 box8 box9 box10'
+    }
+    
+    .OurGalleryimg1 {
+        grid-area: box1;
+    }
+    
+    .OurGalleryimg2 {
+        grid-area: box2;
+    }
+    
+    .OurGalleryimg3 {
+        grid-area: box3;
+    }
+    
+    .OurGalleryimg4 {
+        grid-area: box4;
+    }
+    
+    .OurGalleryimg5 {
+        grid-area: box5;
+    }
+    
+    .OurGalleryimg6 {
+        grid-area: box6;
+    }
+    
+    .OurGalleryimg7 {
+        grid-area: box7;
+    }
+    
+    .OurGalleryimg8 {
+        grid-area: box8;
+    }
+    
+    .OurGalleryimg9 {
+        grid-area: box9;
+    }
+    
+    .OurGalleryimg10 {
+        grid-area: box10;
+    }
+    
+    .metadeBaixoOurGallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    
+    .ourServices {
+        background-color: white;
+        height: 75vh;
+    }
+    
+    .TitleOurServices {
+        font-family: 'Great Vibes', cursive;
+        font-size: 50px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .ourServices p {
+        font-family: 'Karla', sans-serif;
+        text-align: center;
+        width: 60vw;
+        margin-bottom: 25px;
+    }
+    
+    .metadeBaixoOurServices {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 9vw;
+        padding-right: 13vw;
+    }
+    
+    .metadeBaixoOurServices h6 {
+        font-size: 35px;
+        font-weight: 1;
+    }
+    
+    .metadeBaixoOurServices p {
+        width: 19vw;
+        text-align: center;
+    }
+    
+    .breakfastBlock {
+        padding-top: 5px;
+    }
+    
+    .customBlock {
+        padding-top: 27px;
+    }

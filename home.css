@@ -1,23 +1,29 @@
 body {
+    overflow-x: hidden;
+}
+
+main {
     display: flex;
-    font-family: 'Karla', sans-serif;
+    flex-direction: column;
+}
+
+.headerAndHomeBlock {
     background-image: url(img/home-background.jpg);
     background-size: cover;
     background-position: right top;
     background-repeat: no-repeat;
     background-color: black;
     height: 100vh;
-    width: 90vw;
-    overflow-x: hidden;
+    font-family: 'Karla', sans-serif;
 }
 
-main div {
+.HomeBlock {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-family: 'Karla', sans-serif;
 }
 
-.genuine {
+.genuineContainer {
+    display: flex;
     position: absolute;
     justify-content: center;
     color: black;
@@ -27,34 +33,32 @@ main div {
     font-weight: bold;
     height: 300px;
     width: 300px;
-    z-index: -1;
+    z-index: 1;
+}
+
+.genuine {
+    position: absolute;
+    top: 130px;
+    z-index: 1;
 }
 
 .fita {
-    display: flex;
-    position: absolute;
     filter: invert();
-    top: 5vh;
-    left: 41%;
     height: 300px;
-    width: 300px;
-    z-index: -2;
 }
 
 .tasty {
     color: white;
-    position: relative;
-    bottom: 100px;
 }
 
 .tastyPassion {
+    position: absolute;
+    top: 130px;
     display: flex;
     width: 100vw;
-    top: 35vh;
     height: 150px;
-    align-items: center;
-    justify-content: flex-start;
-    position: relative;
+    align-items: flex-start;
+    justify-content: center;
     padding-left: 140px;
 }
 
@@ -68,6 +72,9 @@ main div {
 .numeroLosango01 {
     font-family: 'Oswald', sans-serif;
     color: white;
+    position: relative;
+    bottom: 20px;
+    padding-left: 7px;
 }
 
 .losango20,
@@ -78,14 +85,7 @@ main div {
     width: 25px;
     font-size: 11px;
     position: relative;
-    bottom: 10px;
     z-index: 1;
-}
-
-.numeroLosango01,
-.numeroLosango20 {
-    position: relative;
-    bottom: 30px;
 }
 
 .losango20,
@@ -101,10 +101,9 @@ main div {
 
 .blocoLosango01,
 .blocoLosango20 {
-    display: inline-block;
-    height: 1px;
-    width: 1px;
-    background-color: saddlebrown;
+    width: 10px;
+    position: relative;
+    top: 20px;
 }
 
 .cookingSinceBlock {
