@@ -8,6 +8,7 @@ body {
     background-color: black;
     height: 100vh;
     width: 90vw;
+    overflow-x: hidden;
 }
 
 main div {
@@ -41,15 +42,20 @@ main div {
 }
 
 .tasty {
-    display: flex;
     color: white;
+    position: relative;
+    bottom: 100px;
 }
 
 .tastyPassion {
     display: flex;
-    position: absolute;
-    left: 29vw;
-    top: 20vh;
+    width: 100vw;
+    top: 35vh;
+    height: 150px;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-left: 140px;
 }
 
 .losango20,

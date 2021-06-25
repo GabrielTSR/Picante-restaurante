@@ -23,23 +23,31 @@
 
 .fundoPreto {
     height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: rgb(123, 122, 127);
+}
+
+.fundoPreto>:last-child {
+    padding-bottom: 20px;
 }
 
 .dadosAbsolute {
     position: absolute;
     display: flex;
     flex-direction: row;
-    top: 30vh;
+    top: 24vh;
     height: 65vh;
-    width: 100vw;
     justify-content: center;
     align-items: center;
 }
 
-.dadosAbsolute>* {
-    display: flex;
+.redesSociaisBlock,
+.enderecos {
     position: relative;
-    top: 30px;
+    top: 100px;
 }
 
 .redesSociaisBlock {
@@ -47,6 +55,17 @@
     flex-direction: column;
     align-items: center;
     color: white;
+    gap: 30px;
+}
+
+.redesSociaisBlock a {
+    color: rgb(123, 122, 127);
+    text-decoration: none;
+}
+
+.redesSociaisBlock a:hover {
+    color: chocolate;
+    transition: all 1s;
 }
 
 .redesSociaisBlock>a:first-of-type {
@@ -55,10 +74,9 @@
     align-items: center;
     justify-content: center;
     width: 250px;
-    text-decoration: none;
-    color: rgb(123, 122, 127);
     font-family: 'Karla', sans-serif;
     font-weight: bolder;
+    gap: 4px;
 }
 
 .PicanteAndLogo p {
@@ -66,10 +84,97 @@
 }
 
 .PicanteAndLogo img {
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
+}
+
+.todasAsRedesSociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.todasAsRedesSociais a {
+    letter-spacing: 10px;
+}
+
+.campoCadastro {
+    display: block;
+    background-color: white;
+    list-style: none;
+    height: 350px;
+    padding: 30px;
+}
+
+.campoCadastro ul {
+    list-style: none;
+}
+
+.campoCadastro h6 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    font-weight: 1;
+    width: 100%;
+    color: black;
+    justify-content: center;
+    padding-bottom: 30px;
 }
 
 .letraLaranja {
     color: chocolate;
+}
+
+.linhaCaixaTextoIcon {
+    display: flex;
+    border-bottom: 1px solid rgba(123, 122, 127, 0.5);
+    margin: 20px;
+}
+
+.linhaCaixaTextoIcon textarea {
+    resize: none;
+    border: none;
+}
+
+.linhaCaixaTexto textarea {
+    display: flex;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid rgba(123, 122, 127, 0.5);
+    margin: 20px;
+}
+
+.linhaCaixaTextoIcon textarea,
+.linhaCaixaTexto textarea {
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 10px;
+    color: gray
+}
+
+.campoCadastro ul li:last-child {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.sendMessage {
+    display: flex;
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    color: rgb(133, 142, 147);
+    height: 50px;
+    width: 160px;
+    background-color: rgb(235, 239, 240);
+}
+
+.sendMessage:hover {
+    color: rgb(235, 239, 240);
+    background-color: rgb(133, 142, 147);
+    transition: all 1s;
 }
