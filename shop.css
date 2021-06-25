@@ -60,6 +60,8 @@ footer {
     align-items: center;
     color: white;
     gap: 30px;
+    width: 25vw;
+    padding-left: 100px;
 }
 
 .redesSociaisBlock a {
