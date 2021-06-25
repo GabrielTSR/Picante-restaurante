@@ -23,8 +23,8 @@ header:hover {
 
 header a {
     position: absolute;
-    left: 0px;
     top: 35px;
+    left: 20px;
     color: white;
     text-decoration: none;
     font-size: 25px;

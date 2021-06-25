@@ -43,9 +43,9 @@ footer {
     flex-direction: row;
     top: 500vh;
     height: 65vh;
+    width: 100vw;
     justify-content: center;
     align-items: center;
-    left: 250px;
 }
 
 .redesSociaisBlock,
