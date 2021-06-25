@@ -5,6 +5,8 @@
 }
 
 header {
+    position: fixed;
+    width: 100vw;
     top: 0;
     height: 80px;
     display: flex;
