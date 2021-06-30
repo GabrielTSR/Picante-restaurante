@@ -35,10 +35,6 @@
         width: 100vw;
     }
     
-    .ourServices {
-        background-color: green;
-    }
-    
     .TitleOurGallery {
         font-family: 'Great Vibes', cursive;
         font-size: 50px;
@@ -139,6 +135,9 @@
     .ourServices {
         background-color: white;
         height: 75vh;
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
     }
     
     .TitleOurServices {
